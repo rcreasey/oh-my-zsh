@@ -3,7 +3,6 @@ local return_code="%(?..%{$fg[red]%}%? ↵%{$reset_color%})"
 
 # primary prompt
 PROMPT='$my_red$(rvm_prompt_info) $my_gray// $my_yellow$(python_prompt_info) $FG[237]------------------------------------------%{$reset_color%}
-
 $FG[032]%~\
 $(git_prompt_info) \
 $FG[105]%(!.#.»)%{$reset_color%} '
