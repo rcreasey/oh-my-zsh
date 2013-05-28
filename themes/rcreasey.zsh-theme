@@ -15,7 +15,7 @@ eval my_red='$fg[red]'
 eval my_yellow='$fg[yellow]'
 
 # right prompt
-RPROMPT='$my_gray%n@%m $(rvm_prompt_info)/$(python_prompt_info)%{$reset_color%}%'
+RPROMPT='$my_gray%n@%m $(rbenv_prompt_info)/$(python_prompt_info)%{$reset_color%}%'
 
 # git settings
 ZSH_THEME_GIT_PROMPT_PREFIX="$FG[075](branch:"
