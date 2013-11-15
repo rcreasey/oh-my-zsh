@@ -124,7 +124,11 @@ prompt_hg() {
 			else
 				prompt_segment green black
 			fi
+<<<<<<< HEAD
 			echo -n " $rev@$branch" $st
+=======
+			echo -n "☿ $rev@$branch" $st
+>>>>>>> upstream/master
 		fi
 	fi
 }
@@ -137,7 +141,11 @@ prompt_dir() {
 # Virtualenv: current working virtualenv
 prompt_virtualenv() {
   local virtualenv_path="$VIRTUAL_ENV"
+<<<<<<< HEAD
   if [[ -n $virtualenv_path && -z $VIRTUAL_ENV_DISABLE_PROMPT ]]; then
+=======
+  if [[ -n $virtualenv_path && -n $VIRTUAL_ENV_DISABLE_PROMPT ]]; then
+>>>>>>> upstream/master
     prompt_segment blue black "(`basename $virtualenv_path`)"
   fi
 }
